@@ -1,0 +1,19 @@
+src/
+┣ app/
+┃ ┣ controllers/
+┃ ┃ ┣ SessionController.js
+┃ ┃ ┗ UserController.js
+┃ ┣ middlewares/
+┃ ┃ ┗ auth.js
+┃ ┗ models/
+┃ ┃ ┗ User.js
+┣ config/
+┃ ┣ auth.js
+┃ ┗ database.js
+┣ database/
+┃ ┣ migrations/
+┃ ┃ ┗ 20191016230842-create-users.js
+┃ ┗ index.js
+┣ app.js
+┣ routes.js
+┗ server.js
